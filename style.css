@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+  }
+  html::-webkit-scrollbar { width: 0 !important } 
+
+body {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+}
+
+.container{
+    background-color: #000;
+    margin: 1.5rem;
+    padding: 2.5rem 4rem 4rem;
+    border-radius: 25px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title > span {
+    color: rgb(180, 180, 180);
+}
+
+.status-action {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-size: 25px;
+
+}
+.status{
+    padding: 1rem;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: #fff;
+}
+.status span{
+    color: #fff;
+}
+.reset{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.reset:hover{
+    color: rgb(180, 180, 180);
+    background-color: #444;
+}
+
+.game-grid{
+    background-color: #fff;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.game-cell{
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x, .o {
+    cursor: default;
+}
+
+.x::before{
+    content: '×';
+    font-size: 9rem;
+    color: #444;
+    
+}
+
+.o::before{
+    content: '⦿';
+    font-size: 9rem;
+}
+
+.won::before{
+    color: greenyellow;
+}
+
+@media only screen and (max-width: 1024px) {
+  .game-grid {
+    margin-top: 25px;
+    grid-gap: 10px;
+  }
+
+  .game-cell {
+    height: 150px;
+    width: 150px;
+  }
+
+  .x::after {
+    font-size: 150px;
+  }
+
+  .o::after {
+    font-size: 175px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .container {
+    margin: 25px;
+    padding: 25px;
+  }
+
+  .game-cell {
+    height: 100px;
+    width: 100px;
+  }
+
+  .x::after {
+    font-size: 100px;
+  }
+
+  .o::after {
+    font-size: 125px;
+  }
+}
