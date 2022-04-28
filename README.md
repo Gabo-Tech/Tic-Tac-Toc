@@ -1,4 +1,4 @@
-# Pokedex
+# Tic Tac Toc 
 ![Web Mockup](Mockup.png) 
 
 
