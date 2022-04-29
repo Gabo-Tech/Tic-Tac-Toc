@@ -60,7 +60,7 @@ const checkGameStatus = () => {
         cellDivs[0].classList.add('won') ,
         cellDivs[4].classList.add('won') ,
         cellDivs[8].classList.add('won')) :
-        topRight && topRight === middleMiddle && topRight === bottomLeft ? (handleWin(topRight) &&
+        topRight && topRight === middleMiddle && topRight === bottomLeft ? (handleWin(topRight) ,
         cellDivs[2].classList.add('won') ,
         cellDivs[4].classList.add('won') ,
         cellDivs[6].classList.add('won')) :
