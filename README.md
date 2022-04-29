@@ -12,7 +12,7 @@ Well, just visit the website at [gabriel19971029.github.io/Tic-Tac-Toc/](https:/
 
 ### You want to own this website?
 
-On the other hand if you'd like to host this website on your local machine just clone this repository with ``` git clone https://github.com/gabriel19971029/Instagram-Clone-by-Gabriel-Clemente.git```. just copy and paste that command on your terminal, and dont foret pressing enter!
+On the other hand if you'd like to host this website on your local machine just clone this repository with ``` git clone https://github.com/gabriel19971029/Tic-Tac-Toc.git```. just copy and paste that command on your terminal, and dont foret pressing enter!
 
 ## Deployment
 
