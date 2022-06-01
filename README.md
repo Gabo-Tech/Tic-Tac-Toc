@@ -8,7 +8,7 @@ Well this is as simple as Another Tic-Tac-Toc Open Sourced Game. Though you'll n
 
 ## Getting Started
 
-Well, just visit the website at [gabriel19971029.github.io/Tic-Tac-Toc/](https://gabriel19971029.github.io/Tic-Tac-Toc/) and enjoy! 
+Well, just visit the website at [Gabo-Tech.github.io/Tic-Tac-Toc/](https://Gabo-Tech.github.io/Tic-Tac-Toc/) and enjoy! 
 
 ### You want to own this website?
 
